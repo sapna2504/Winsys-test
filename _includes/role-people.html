@@ -1,0 +1,25 @@
+<!-- _includes/role-people.html -->
+{%- assign role_info = site.roles | where: "key", role | first -%}
+{%- if role_info and role_info.name != nil -%}
+  {%- assign display_name = role_info.name -%}
+{%- else -%}
+  {%- assign display_name = role | replace: "-", " " | capitalize -%}
+{%- endif -%}
+
+<div class="role mb-4">
+  <h6 class="role-title">{{ display_name }}</h6>
+
+  {% assign people_for_role = site.data.people[role] %}
+  {% if people_for_role and people_for_role.size > 0 %}
+    <div class="role-people row">
+      {% for person in people_for_role %}
+       <div class="role-people row gx-5 gy-4">
+          {% include person-card.html person=person image=include.image %}
+        </div>
+      {% endfor %}
+    </div>
+  {% else %}
+    <p class="text-muted small mb-0">No people listed for <em>{{ display_name }}</em>.</p>
+  {% endif %}
+</div>
+

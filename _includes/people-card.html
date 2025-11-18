@@ -1,0 +1,17 @@
+<!-- _includes/person-card.html -->
+<div class="person d-flex align-items-start mb-3">
+  {% if include.image and person.profile %}
+    <img class="profile mr-3" src="{{ person.profile | relative_url }}" alt="{{ person.name }}">
+  {% elsif include.image %}
+    <div class="profile mr-3" style="background:#eee;"></div>
+  {% endif %}
+
+  <div class="person-meta">
+    <div class="person-name"><strong>{{ person.name }}</strong></div>
+    {% if person.title %}<div class="person-title small text-muted">{{ person.title }}</div>{% endif %}
+    {% if person.webpage %}<div class="person-links"><a href="{{ person.webpage }}" target="_blank" rel="noopener">Profile</a></div>{% endif %}
+    {% if person.email %}<div class="person-contact small"><a href="mailto:{{ person.email }}">{{ person.email }}</a></div>{% endif %}
+    {% if person.bio %}<div class="person-bio small mt-1">{{ person.bio }}</div>{% endif %}
+  </div>
+</div>
+

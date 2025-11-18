@@ -1,0 +1,37 @@
+<!-- _includes/people.html -->
+<section class="people mb-4">
+  <h2 class="h5 mb-3">People</h2>
+
+  <div class="row">
+    {%- assign rt = page.role-tables | default: site.role-tables -%}
+    {%- if rt -%}
+      {%- for pair in rt -%}
+        {%- assign roles = pair[0].roles -%}
+        {%- assign width = pair[0].width | default: 6 -%}
+        {%- assign image_flag = pair[0].image -%}
+        <div class="col-md-{{ width }}">
+          {%- for role in roles -%}
+            <div class="role">
+              <h6 class="role-title">{{ role | capitalize }}</h6>
+              <div class="role-people">
+                {%- assign people_for_role = site.data.people[role] -%}
+                {%- if people_for_role %}
+                  {%- for person in people_for_role -%}
+                    {% include person-card.html person=person %}
+                  {%- endfor -%}
+                {%- else -%}
+                  <p class="text-muted small mb-0">No people listed for <em>{{ role }}</em>.</p>
+                {%- endif -%}
+              </div>
+            </div>
+          {%- endfor -%}
+        </div>
+      {%- endfor -%}
+    {%- else -%}
+      <div class="col-12">
+        <p class="text-muted small mb-0">No role-tables defined in page front-matter. Add `role-tables` to the page header.</p>
+      </div>
+    {%- endif -%}
+  </div>
+</section>
+

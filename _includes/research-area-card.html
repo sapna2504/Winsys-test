@@ -1,0 +1,49 @@
+<!-- _includes/research-area-card.html -->
+{% assign area = include.area %}
+
+<div class="research-area card h-100 text-left shadow-sm">
+  {% if area.image %}
+    <img class="card-img-top area-image" src="{{ area.image | relative_url }}" alt="{{ area.title }}">
+  {% endif %}
+
+  <div class="card-body d-flex flex-column">
+    <h5 class="card-title mb-2">{{ area.title }}</h5>
+
+    {% if area.description or area.short %}
+      <p class="card-text text-muted mb-3" style="flex: 0;">
+        {{ area.description | default: area.short }}
+      </p>
+    {% endif %}
+
+    {% comment %}
+      Find projects that reference this area's key.
+      We expect site.data.research_projects to be an array of items where each item has:
+        areas: ["area-key", ...]
+    {% endcomment %}
+    {% assign all_projects = site.data.research_projects | default: [] %}
+    {% assign area_projects = all_projects | where_exp: "proj", "proj.areas and proj.areas contains area.key" %}
+
+    {% if area_projects and area_projects.size > 0 %}
+      <div class="mt-auto">
+        <h6 class="mb-2" style="font-size:0.95rem;">Related projects</h6>
+        <ul class="list-unstyled mb-0 small">
+          {% for proj in area_projects %}
+            <li class="mb-2">
+              {% if proj.link %}
+                <a href="{{ proj.link }}" target="_blank" rel="noopener" class="project-link">{{ proj.title }}</a>
+              {% else %}
+                <span class="project-link">{{ proj.title }}</span>
+              {% endif %}
+              <br><span class="text-muted">{{ proj.venue }}{% if proj.year %} ({{ proj.year }}){% endif %}</span>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    {% else %}
+      <div class="mt-auto">
+        <p class="text-muted small mb-0">No projects listed for this area yet.</p>
+      </div>
+    {% endif %}
+  </div>
+</div>
+
