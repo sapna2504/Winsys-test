@@ -1,0 +1,95 @@
+# _data/research_projects.yml
+
+# Projects primarily in "Improve application QoE"
+- id: live-multipath-streaming
+  title: "Live video streaming utilizing multipath"
+  year: 2025
+  venue: "MMSys 2025"
+  areas: ["application-qoe"]
+  description: "Multipath streaming techniques to improve resilience and QoE in poor networks."
+  link: "https://dl.acm.org/doi/abs/10.1145/3712676.3714451"
+
+- id: optimize-http3-poor-networks
+  title: "Optimizing HTTP/3 for poor networks"
+  year: 2024
+  venue: "TNSM 2024"
+  areas: ["application-qoe"]
+  description: "Optimizations and evaluation of HTTP/3 under constrained network conditions."
+  link: "https://ieeexplore.ieee.org/abstract/document/10453353"
+
+- id: dataset-http3-streaming
+  title: "Dataset of HTTP/3 based streaming under poor network"
+  year: 2023
+  venue: "NeurIPS 2023 (dataset)"
+  areas: ["application-qoe"]
+  description: "Curated dataset of QUIC/HTTP3 streaming traces under adverse network conditions."
+  link: "https://proceedings.neurips.cc/paper_files/paper/2023/hash/f5da8ac52cf8857157c63c4803b6690b-Abstract-Datasets_and_Benchmarks.html"
+
+# Projects in the intersection (application-qoe + dense-wifi + wifi-sensing)
+- id: send-data-management-frames
+  title: "Send data over WiFi management frames for challenging networks"
+  year: 2020
+  venue: "MASS 2020"
+  areas: ["application-qoe", "dense-wifi"]
+  description: "Using management frames for lightweight data delivery to improve robustness in challenging deployments."
+  link: "https://ieeexplore.ieee.org/abstract/document/935604"
+
+- id: isac-integrated-sensing
+  title: "ISAC: Integrated Sensing and Communication"
+  year: 2025
+  venue: "IMWUT 2025"
+  areas: ["application-qoe", "wifi-sensing"]
+  description: "Joint sensing & communication techniques that enable application-aware sensing while preserving QoE."
+  link: "https://dl.acm.org/doi/abs/10.1145/3712271"
+
+# Projects primarily in "Dense WiFi Challenges"
+- id: dense-wifi-classroom-performance
+  title: "Performance of Dense WiFi in Classroom"
+  year: 2015
+  venue: "COMSNETS 2015 / TMC 2016"
+  areas: ["dense-wifi"]
+  description: "Empirical study of WiFi performance in dense classroom deployments and implications for RRM."
+  link: "https://ieeexplore.ieee.org/abstract/document/7098698"
+
+- id: diagnose-wifi-health
+  title: "Diagnose health of WiFi networks"
+  year: 2017
+  venue: "TMC 2017"
+  areas: ["dense-wifi"]
+  description: "Tools and methods to detect and diagnose AP and network health in campus deployments."
+  link: "https://dl.acm.org/doi/abs/10.1145/2789168.2789179"
+
+- id: rrm-improve-wifi
+  title: "RRM to improve WiFi performance in dense deployments"
+  year: 2020
+  venue: "PIMRC 2020 / ICC 2022 / MobiWac 2022"
+  areas: ["dense-wifi"]
+  description: "Radio Resource Management techniques to mitigate contention and improve throughput in dense networks."
+  link: "https://dl.acm.org/doi/abs/10.1145/3551660.3560920"
+
+- id: causes-active-scanning
+  title: "Causes of active scanning in dense WiFi"
+  year: 2019
+  venue: "WoWMoM 2019"
+  areas: ["dense-wifi"]
+  description: "Study of active scanning causes and mitigation strategies to reduce unnecessary scanning overhead."
+  link: "https://ieeexplore.ieee.org/abstract/document/8793010"
+
+# Projects primarily in "WiFi Sensing"
+- id: wifi-sensing-engagement
+  title: "WiFi sensing to detect engagement in online classes"
+  year: 2023
+  venue: "ICMI 2023"
+  areas: ["wifi-sensing"]
+  description: "Using WiFi CSI/features to detect student engagement and participation levels in online classrooms."
+  link: "https://dl.acm.org/doi/abs/10.1145/3577190.3614108"
+
+# Example: cross-area project (dense-wifi + wifi-sensing)
+- id: wifi-sensing-for-dense-networks
+  title: "WiFi sensing for dense deployments"
+  year: 2021
+  venue: "Workshop / Demo"
+  areas: ["dense-wifi", "wifi-sensing"]
+  description: "Applying sensing methods to characterize dense WiFi environments and identify congestion/health indicators."
+  link: ""
+

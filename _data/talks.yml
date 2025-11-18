@@ -1,0 +1,29 @@
+# _data/talks.yml
+
+- category: "Invited/Conference Talks (given by WiNSys Lab Members)"
+  items:
+    - title: "SLIM-SENSE: A Resource Efficient  WiFi Sensing Framework towards Integrated Sensing and Communication"
+      presenter: "Mukulika Maity"
+      venues:
+        - name: "IEEE FNWF, IISC Bangalore"
+          date: "November 11, 2025"
+          
+    - title: "YouTube over QUIC:  A Tug of War between Protocol Sustainability and Application QoE"
+      presenter: "Mukulika Maity"
+      venues:
+        - name: "CSE Bytes, IIT Madras"
+          date: "October 29, 2025"      
+    
+    - title: "SLIM-SENSE: A Resource Efficient WiFi Sensing Framework for Conserving Spectrum Resources"
+      presenter: "Vijay Kumar Singh"
+      venues:
+        - name: "Ubicomp/ISWC 2025"
+          date: "October 17, 2025"
+#      notes: "(YouTube video available)"
+
+    - title: "Newer isn't always better: Transport protocol QUIC vs TCP"
+      presenter: "Sapna Chaudhary"
+      venues:
+        - name: "N2Women Workshop in ACM SIGCOMM 2025"
+          date: "September 8, 2025"
+

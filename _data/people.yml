@@ -1,0 +1,79 @@
+# _data/people.yml
+faculty:
+  - name: "Mukulika Maity"
+    title: "Assistant Professor, Department of Computer Science and Engineering, IIT Madras"
+    profile: "/img/people/mukulika.jpeg"
+    email: "mukulika@iiitd.ac.in"
+    scholar: "https://scholar.google.com/citations?user=F5sooVMAAAAJ&hl"
+    bio: "Received her M.Tech+ Ph.D. dual degree from the computer science department of the Indian Institute of Technology (IIT) Bombay in 2016. She received B.E. in 2010 in the computer science department of Bengal Engineering and Science University, Shibpur."
+    
+
+phd:
+  - name: "Sapna Chaudhary"
+    title: "PhD Student since August 2020 (co-advised with Dr. Sandip Chakraborty)"
+    profile: "/img/people/sapna.png"
+    email: "sapnac@iiitd.ac.in"
+    scholar: "https://scholar.google.com/citations?user=l9qK0CkAAAAJ"
+    bio: "Improving QoS of Video Streaming Applications"
+    
+  - name: "Jagrati Kulshrestha"
+    title: "PhD Student since January 2021"
+    profile: "/img/people/jagriti.jpg"
+    email: "jagratik@iiitd.ac.in"
+    scholar: "https://scholar.google.com/citations?user=Nqt8hikAAAAJ&hl"
+    bio: "Performance Analysis of Next Generation Wireless Networks"
+    
+  - name: "Vijay Kumar Singh"
+    title: "PhD Student since August 2021"
+    profile: "/img/people/vijay.jpg"
+    email: "vijayk@iiitd.ac.in"
+    scholar: "https://scholar.google.com/citations?user=Pc0AAAAJ&hl"
+    bio: "ISAC: Integrated WiFi Sensing and Communication"
+
+  - name: "Raghav Verma"
+    title: "PhD Student since August 2025 (co-advised with Dr. Arani Bhattacharya)"
+    profile: "/img/people/raghav.jpeg"
+    email: "raghavv@iiitd.ac.in"
+    bio: "ISAC: Integrated WiFi Sensing and Communication"
+
+  - name: "Zainab Fatima"
+    title: "PhD Student since September 2025 (co-advised with Dr. Pragma Kar)"
+    profile: "/img/people/zainab.jpeg"
+    email: "zainabf@iiitd.ac.in"
+    bio: "Assessing Cognition and Knowledge through the Lens of Ubiquitous Computing"
+    
+alum:
+  - name: "Piyush Kumar Sharma"
+    title: "Assistant Professor at IIT Delhi (co-advised with Dr. Sambuddho Chakravarty)"
+    profile: "/img/people/piyush.jpg"
+    email: "piyush@iitd.ac.in"
+    scholar: "https://scholar.google.com/citations?user=eO1M0vgAAAAJ&hl=en&oi=ao"
+    bio: "His research broadly encompasses security, systems, and networks"
+  
+  - name: "Puneet Kumar"
+    title: "M.Tech. Thesis Student(Jan 2024 - May 2025)"
+    profile: "/img/people/puneet.jpg"
+    email: "piyush@iitd.ac.in"
+    bio: "Performance Optimization of WiFi 7 Networks"
+  
+  - name: "Aruba Sood"
+    title: "M.Tech. Thesis Student(Jan 2024 - May 2025)"
+    profile: "/img/people/aruba.jpeg"
+    email: "piyush@iitd.ac.in"
+    bio: "Implementation of Live Video Streaming using Multipath over QUIC"
+    
+  - name: "Rishi Sharma"
+    title: "M.Tech. Thesis Student(Jan 2022-Dec 2021)"
+    email: "piyush@iitd.ac.in"
+    bio: "Dolphin: A Cellular Voice Based Internet Shutdown Resistance System "
+    
+  - name: "Kartikey Singh"
+    title: "M.Tech. Thesis Student(Jan 2022-Dec 2021)"
+    profile: "/img/people/kartikey.jpeg"
+    email: "piyush@iitd.ac.in"
+    bio: "Dolphin: A Cellular Voice Based Internet Shutdown Resistance System "
+  
+  - name: "Harshal Dev,"
+    title: "M.Tech. Thesis Student(May 2021-Dec 2021)(co-advised with Dr. Arani Bhattacharya)"
+    email: "piyush@iitd.ac.in"
+    bio: "Performance Analysis of Next Generation Wireless Networks"

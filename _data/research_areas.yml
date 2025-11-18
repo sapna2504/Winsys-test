@@ -1,0 +1,16 @@
+# _data/research_areas.yml
+- key: application-qoe
+  title: "Improve application QoE under intermittent / poor Internet connectivity"
+  short: "Techniques to improve application-level Quality-of-Experience (video streaming) when networks are lossy, intermittent, bandwidth-limited and over high speed Internet."
+  image: "/img/research/video-streaming.jpeg"
+
+- key: dense-wifi
+  title: "Dense WiFi Challenges"
+  short: "Measurement and solutions for problems arising in dense WiFi deployments: RRM, scanning, AP health, and classroom performance."
+  image: "/img/research/dense-wifi.jpeg"
+
+- key: wifi-sensing
+  title: "WiFi Sensing"
+  short: "Using commodity WiFi signals for sensing tasks such as engagement detection, activity recognition and environment monitoring."
+  image: "/img/research/wifi-sensing.jpeg"
+

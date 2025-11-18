@@ -1,0 +1,265 @@
+---
+---
+
+$gray: #999;
+$light-gray: #EEE;
+
+/* Space out content a bit */
+body {
+    padding-top: 20px;
+}
+
+.header {
+    border-bottom: 1px solid $light-gray;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.footer {
+    /* padding-top: 19px; */
+    color: $gray;
+    border-top: 1px solid $light-gray;
+    text-align: center;
+    font-size: 0.8em;
+
+    a:link, a:visited {
+        color: $gray;
+    }
+}
+
+.fa {
+    color: $gray;
+}
+a > .fa {
+    // make sure that font-awesome icons are underlined in links
+    display: inline;
+}
+
+/* /\* Customize container *\/ */
+/* @media (min-width: 768px) { */
+/*     .container { */
+/*         max-width: 730px; */
+/*     } */
+/* } */
+
+/* Jumbotron */
+.jumbotron {
+    text-align: justify;
+    padding-top: 1.5em;
+    padding-bottom: 0.5em;
+    font-size: 125%
+}
+
+/* Group logo */
+#logo {
+    width: 154px;
+    height: 35px;
+    margin: 2px 0 8px 0;
+}
+
+/* Front page news. */
+ul.news {
+
+    .date {
+        color: $gray;
+        font-weight: bold;
+    }
+
+    > li {
+        margin-top: 1em;
+    }
+}
+
+@media (min-width: 576px) {
+    .project-people { column-count: 2 }
+    .card-columns   { column-count: 2 }
+}
+
+@media (min-width: 768px) {
+    .role.grad      { column-count: 2 }
+    .project-people { column-count: 3 }
+    .card-columns   { column-count: 3 }
+}
+
+.title img {
+    max-width: 50%;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+.profile {
+    object-fit: cover; // makes sure it's cropped
+}
+
+.noprofile {
+    circle {
+        fill: $light-gray;
+    }
+    text {
+        font-weight: 700;
+        fill: white;
+    }
+}
+
+.card {
+
+    .profile {
+        height: 40px;
+        width: 40px;
+        margin: 3px;
+    }
+
+    .card-footer { padding: 0.5em }
+}
+
+.person {
+
+    margin-bottom: 10px;
+
+    .profile {
+        height: 70px;
+        width: 70px;
+    }
+
+    .bio {
+        color: $gray;
+    }
+
+    .person-name {
+        margin: 0;
+    }
+}
+
+.person-without-image {
+    margin: 0;
+
+    .bio {
+        margin-left: 1em;
+    }
+}
+
+svg {
+    // make the alignment just like img from bootstrap's reboot.scss
+    vertical-align: middle;
+}
+
+.news-sidebar {
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 15px 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+.news-sidebar h2 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 4px;
+}
+.news-sidebar .news li {
+  margin-bottom: 8px;
+  font-size: 0.9rem;
+}
+
+/* Location map responsiveness and spacing */
+.map-wrapper { border-radius: 6px; overflow: hidden; background: #f8f9fa; }
+.location address { font-style: normal; color: #333; }
+.location .btn { padding: .25rem .5rem; font-size: .9rem; }
+
+/* People page layout */
+.role-title { font-size: 1.25rem; font-weight: 700; margin-bottom: .75rem; }
+
+/* basic person card */
+.person { display: flex; align-items: flex-start; padding: .5rem; border-radius: 8px; width:100%; }
+.person:hover { background: #fafafa; }
+
+/* profile image */
+.profile { width: 100px; height: 100px; object-fit: cover; border-radius: 50%; margin-right: 1rem; flex: 0 0 auto; }
+
+/* text */
+.person-meta { line-height: 1.45; flex: 1; }
+.person-name { font-size: 1.05rem; font-weight: 600; margin-bottom: .15rem; }
+.person-title { color: #666; margin-bottom: .35rem; }
+
+/* ensure columns stretch so rows align nicely */
+.role-people .col-md-6 { display: flex; align-items: stretch; }
+.role-people .col-md-6 > .person { flex: 1; }
+
+/* fallback gaps for Bootstrap 4 (or if gx/gy not present) */
+.role-people { column-gap: 1.5rem; row-gap: 1.25rem; }
+
+/* smaller screens tweak */
+@media (max-width: 575.98px) {
+  .profile { width: 80px; height: 80px; }
+}
+
+
+.people-centered {
+  max-width: 980px;   /* adjust to taste (900–1100px common) */
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* apply same for each role block if needed */
+.people-centered .role {
+  margin-bottom: 2rem;
+}
+
+.person { padding: .75rem 1rem; }
+.role-people { column-gap: 2rem; row-gap: 1.5rem; }
+/* Highlighted category header block */
+.talk-category {
+  background-color: #f5f5f5;   /* light grey background */
+  border-left: 5px solid #ccc; /* subtle accent bar on the left */
+  border-radius: 6px;
+  padding: 0.75rem 1rem;
+  margin-top: 2rem;
+}
+
+.category-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #333;
+  margin: 0; /* removes extra top/bottom spacing */
+}
+
+/* Research areas grid */
+.research-areas .card {
+  border: 1px solid #eee;
+  transition: box-shadow .12s ease, transform .12s ease;
+}
+
+.research-areas .card:hover {
+  box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+  transform: translateY(-4px);
+}
+
+.area-image {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+/* Smaller screens: slightly shorter image */
+@media (max-width: 575.98px) {
+  .area-image { height: 120px; }
+}
+
+.award-title {
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+.award-desc {
+  font-size: 0.9rem;
+}
+
+.table-striped tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+

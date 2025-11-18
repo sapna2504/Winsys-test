@@ -1,0 +1,306 @@
+# _data/publications.yml
+
+- year: 2025
+  title: "FlexDisplay: A Flexible Display Framework To Conserve Smartphone Battery Powers"
+  link: "https://ieeexplore.ieee.org/abstract/document/10502958"
+  authors: "Anshak Goel, Deeptorshi Mondal, Sahil Goyal, Manavjeet Singh, Navneet Agarwal, Jian Xu, Mukulika Maity, Arani Bhattacharya"
+  venue: "ACM Journal on Computing and Sustainable Societies (JCSS) 2025"
+  type: "journal"
+
+- year: 2025
+  title: "SLIM-SENSE: A Resource Efficient WiFi Sensing Framework towards Integrated Sensing and Communication"
+  link: "https://dl.acm.org/doi/abs/10.1145/3712271"
+  authors: "Vijay Kumar Singh, Aryan Walecha, Rishabh Jay, Ashutosh Gera, Arani Bhattacharya, Mukulika Maity"
+  venue: "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT/Ubicomp) 2025"
+  type: "journal"
+
+- year: 2024
+  title: "Managing Connections by QUIC-TCP Racing: A First Look of Streaming Media Performance over Popular HTTP/3 Browsers"
+  link: "https://ieeexplore.ieee.org/abstract/document/10453353"
+  authors: "Sapna Chaudhary, Naval Kumar Shukla, Prince Sachdeva, Sandip Chakraborty, Mukulika Maity"
+  venue: "IEEE Transactions on Network and Service Management (TNSM) 2024"
+  type: "journal"
+
+- year: 2023
+  title: "AnalyticalBP: Analytical Model for Blocking Probabilities Considering Crosstalk-Avoided Approach in Spectrally-Spatially Elastic Optical Networks"
+  link: "https://ieeexplore.ieee.org/abstract/document/10315192"
+  authors: "Imran Ahmed, Roshan Kumar Rai, Mukulika Maity, Eiji Oki, Bijoy Chand Chatterjee"
+  venue: "IEEE Transactions on Communications (TCOM) 2023"
+  type: "journal"
+
+- year: 2022
+  title: "BPRIA: Crosstalk-Avoided Bi-Partitioning-Based Counter-propagation Resource Identification and Allocation for Spectrally-Spatially Elastic Optical Networks"
+  link: "https://ieeexplore.ieee.org/abstract/document/9733389"
+  authors: "Bijoy Chand Chatterjee, Imran Ahmed, Abdul Wadud, Mukulika Maity, Eiji Oki"
+  venue: "IEEE Transactions on Network and Service Management (TNSM) 2022"
+  type: "journal"
+
+- year: 2017
+  title: "Witals: AP-centric Health Diagnosis of WiFi Networks"
+  link: "https://dl.acm.org/doi/abs/10.1145/2789168.2789179"
+  authors: "Mukulika Maity, Avinash Chaurasia, Rachit Srivastava, Bhaskaran Raman, Mythili Vutukuru"
+  venue: "IEEE Transactions on Mobile Computing 2017"
+  type: "journal"
+
+- year: 2016
+  title: "TCP Download Performance in Dense WiFi Scenarios: Analysis and Solution"
+  link: "https://ieeexplore.ieee.org/abstract/document/7430293"
+  authors: "Mukulika Maity, Bhaskaran Raman, Mythili Vutukuru"
+  venue: "IEEE Transactions on Mobile Computing 2016"
+  type: "journal"
+
+# conference ------------------------------------------------------------------------------------------------
+
+- year: 2025
+  title: "COMPACT: Content-aware Multipath Live Video Streaming for Online Classes using Video Tiles"
+  link: "https://dl.acm.org/doi/abs/10.1145/3712676.3714451"
+  authors: "Shubham Chaudhary, Navneet Mishra, Keshav Gambhir, Tanmay Rajore, Mukulika Maity, Arani Bhattachary"
+  venue: "16th ACM Multimedia Systems Conference (MMSys) 2025"
+  type: "conference"
+  
+- year: 2024
+  title: "Vanguard: A Practical FrontLine Defense Against VoIP Identification Attacks in Tor"
+  link: "https://link.springer.com/chapter/10.1007/978-981-96-3531-3_16"
+  authors: "Jithin S, Richa Gupta, Reeshabh Kumar Ranjan, Shreyansh Nagpal, Mukulika Maity, Sambuddho Chakravarty"
+  venue: "18th International Conference on Network and System Security (NSS) 2024"
+  type: "conference"
+
+- year: 2024
+  title: "A Deadline-Aware Scheduler for Smart Factory using WiFi 6"
+  link: "https://dl.acm.org/doi/abs/10.1145/3641512.3686387"
+  authors: "Mohit Jain, Anis Mishra, Syamantak Das, Andreas Wiese, Arani Bhattachary, Mukulika Maity"
+  venue: "25th International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing (MobiHoc) 2024"
+  type: "conference"
+
+- year: 2024
+  title: "TileClipper: Lightweight Selection of Regions of Interest from Videos for Traffic Surveillance"
+  link: "https://www.usenix.org/conference/atc24/presentation/chaudhary"
+  authors: "Shubham Chaudhary, Aryan Taneja, Anjali Singh, Purbasha Roy, Sohum Sikdar, Mukulika Maity, Arani Bhattachary"
+  venue: "2024 USENIX Annual Technical Conference (ATC) 2024"
+  type: "conference"  
+
+- year: 2024
+  title: "Is Multi-Link Operation of 802.11be TCP friendly? Analysis and Solution"
+  link: "https://ieeexplore.ieee.org/abstract/document/10619851"
+  authors: "Jagrati Kulshrestha, Srimant Mohanty, Pasquale Imputato, Stefano Avallone, Mukulika Maity"
+  venue: "23rd International Federation for Information Processing (IFIP) Networking 2024 Conference (NETWORKING)"
+  type: "conference"
+
+- year: 2024
+  title: "CoDel-ACT: Realizing CoDel AQM for Programmable Switch ASICs"
+  link: "https://ieeexplore.ieee.org/abstract/document/10619729"
+  authors: "Aditya Peer, Vedant Bothra, Vijay Kumar Singh, Mukulika Maity, Rinku Shah"
+  venue: "23rd International Federation for Information Processing (IFIP) Networking 2024 Conference (NETWORKING)"
+  type: "conference"
+
+- year: 2024
+  title: "How Many Hands in the Cookie Jar? Examining Privacy Implications of Popular Apps in India"
+  link: "https://ieeexplore.ieee.org/abstract/document/10629034"
+  authors: "Koustuv Kanungo, Aairah Bari, Rahul Khatoliya, Vishrut Arora, Arani Bhattacharya, Mukulika Maity, Sambuddho Chakravarty"
+  venue: "9th IEEE European Symposium on Security and Privacy (EuroS&P) 2024"
+  type: "conference"
+  
+- year: 2024
+  title: "LFTA: Legacy Friendly Traffic Allocation Strategy for Multi-Link Operation in WiFi7"
+  link: "https://ieeexplore.ieee.org/abstract/document/10426831"
+  authors: "Jagrati Kulshrestha, Nadeem Akhtar, Preyas Hathi, Mukulika Maity"
+  venue: "16th International Conference on COMmunication Systems and NETworkS 2024 (COMSNETS)"
+  type: "conference"  
+
+- year: 2023
+  title: "A Dataset for Analyzing Streaming Media Performance over HTTP/3 Browsers"
+  link: "https://proceedings.neurips.cc/paper_files/paper/2023/hash/f5da8ac52cf8857157c63c4803b6690b-Abstract-Datasets_and_Benchmarks.html"
+  authors: "Sapna Chaudhary, Naval Kumar Shukla, Sandip Chakraborty, Mukulika Maity"
+  venue: "COMSNETS 2023Thirty-seventh Conference on Neural Information Processing Systems (NeurIPS) 2023"
+  type: "conference"  
+
+- year: 2023
+  title: "WiFiTuned: Monitoring Engagement in Online Participation by Harmonizing WiFi and Audio"
+  link: "https://dl.acm.org/doi/abs/10.1145/3577190.3614108"
+  authors: "Vijay Kumar Singh, Pragma Kar, Ayush Madhan Sohini, Madhav Rangaiah, Sandip Chakraborty, Mukulika Maity"
+  venue: "25th ACM International Conference on Multimodal Interaction (ICMI) 2023"
+  type: "conference"
+
+- year: 2023
+  title: "Dolphin: A Cellular Voice Based Internet Shutdown Resistance System"
+  link: "https://repository.iiitd.edu.in/xmlui/handle/123456789/1092"
+  authors: "Piyush Kumar Sharma, Rishi Sharma, Kartikey Singh, Mukulika Maity, Sambuddho Chakravarty"
+  venue: "23rd Privacy Enhancing Technologies Symposium (PETS) 2023"
+  type: "conference"
+  
+- year: 2022
+  title: "When Is Multiple Access Beneficial? An Analysis of Multi-User Performance in IEEE 802.11ax"
+  link: "https://dl.acm.org/doi/abs/10.1145/3551660.3560920"
+  authors: "Harshal Dev, Utkrisht Sikka, Jagrati Kulshrestha, Mukulika Maity"
+  venue: "20th ACM International Symposium on Mobility Management and Wireless Access (MobiWac) 2022"
+  type: "conference"  
+
+- year: 2022
+  title: "Crosstalk and Noise Avoided Resource Allocation Based on Quantum-Key-Distribution for Spectrally-Spatially Elastic Optical Networks"
+  link: "https://ieeexplore.ieee.org/abstract/document/9838326"
+  authors: "Joy Halder, Mukulika Maity, Eiji Oki, Bijoy Chand Chatterjee"
+  venue: "IEEE International Conference on Communications ICC 2022"
+  type: "conference"
+
+- year: 2022
+  title: "FairSplit - An efficient near-optimal bandwidth splitting strategy for OFDMA in IEEE 802.11ax"
+  link: "https://ieeexplore.ieee.org/abstract/document/9838440"
+  authors: "Naman Gupta, Syamantak Das, Mukulika Maity"
+  venue: "IEEE International Conference on Communications ICC 2022"
+  type: "conference"
+  
+- year: 2020
+  title: "Adaptive ViFi: A Dynamic Protocol for IoT Nodes in Challenged WiFi Network Conditions"
+  link: "https://ieeexplore.ieee.org/abstract/document/9356044"
+  authors: "Dheryta Jaisinghani, Naman Gupta, Mukulika Maity, Vinayak Naik"
+  venue: "The 17th IEEE International Conference on Mobile Ad-Hoc and Smart Systems (MASS) 2020"
+  type: "conference"  
+
+- year: 2020
+  title: "MMRU-ALLOC: An Optimal Resource AllocationFramework for OFDMA in IEEE 802.11ax"
+  link: "https://ieeexplore.ieee.org/abstract/document/9217154"
+  authors: "Avik Dutta, Naman Gupta, Syamantak Das, Mukulika Maity"
+  venue: "31st IEEE International Symposium on Personal, Indoor and Mobile Radio Communications (PIMRC) 2020"
+  type: "conference"
+
+- year: 2020
+  title: "The Road Not Taken: Re-thinking the Feasibility of Voice Calling Over Tor"
+  link: "https://arxiv.org/abs/2007.04673"
+  authors: "Piyush Kumar Sharma, Nikhil Hassija, Shashwat Chaudhary, Sambuddho Chakravarty, Mukulika Maity"
+  venue: "20th Privacy Enhancing Technologies Symposium (PETS) 2020"
+  type: "conference"
+  
+- year: 2019
+  title: "Learning to Rescue WiFi Networks from Unnecessary Active Scans"
+  link: "https://ieeexplore.ieee.org/abstract/document/8793010"
+  authors: "Harish Fulara, Gursimran Singh, Dheryta Jaisinghani, Mukulika Maity, Tanmoy Chakraborty, Vinayak Naik"
+  venue: "20th International Symposium on World of Wireless, Mobile and Multimedia Networks (WoWMoM) 2019"
+  type: "conference"
+
+- year: 2015
+  title: "TCP Download Performance in Dense WiFi Scenarios"
+  link: "https://ieeexplore.ieee.org/abstract/document/7098698"
+  authors: "Mukulika Maity, Bhaskaran Raman, Mythili Vutukuru "
+  venue: "7th International Conference on COMmunication Systems and NETworkS (COMSNETS) 2015"
+  type: "conference"
+  
+- year: 2014
+  title: "A Software Solution to Conduct Inquiry based Student Directed Learning"
+  link: "https://ieeexplore.ieee.org/abstract/document/7009528"
+  authors: "Shitanshu Mishra, Mukulika Maity"
+  venue: "6th IEEE International Conference on Technology for Education (T4E) 2014"
+  type: "conference"
+  
+# workshop ---------------------------------------------------------------------------------------------------------
+
+- year: 2025
+  title: "Use of Channel Occupancy for Multi Link WiFi 7 Scheduler Design in ns-3"
+  link: "https://ieeexplore.ieee.org/abstract/document/10885613"
+  authors: "Puneet Kumar, Jagrati Kulshrestha, Mukulika Maity, Sumit Roy"
+  venue: "Standard Driven Research collocated with 17th International Conference on COMmunication Systems and NETworkS 2025 (COMSNETS)"
+  type: "workshop"
+
+- year: 2025
+  title: "Intel-Switch: Optimized Adaptive Protocol Selection Mechanism for Video Streaming Application"
+  link: "https://ieeexplore.ieee.org/abstract/document/10885716"
+  authors: "Sapna Chaudhary, Sandip Chakraborty, Mukulika Maity"
+  venue: "17th International Conference on COMmunication Systems and NETworkS 2025 COMSNETS 2025"
+  type: "workshop"
+  
+- year: 2024
+  title: "FlexDisplay: A Flexible Display Framework To Conserve Smartphone Battery Powers"
+  link: "https://ieeexplore.ieee.org/abstract/document/10502958"
+  authors: "Anshak Goel, Deeptorshi Mondal, Sahil Goyal, Manavjeet Singh, Navneet Agarwal, Jian Xu, Mukulika Maity, Arani Bhattacharya"
+  venue: "22nd International Conference on Pervasive Computing and Communications (PerCom) 2024"
+  type: "workshop"
+  
+- year: 2024
+  title: "Demonstration of WIFITUNED: Monitoring Engagement in Online Participation by Harmonizing WiFi and Audio"
+  link: "https://dl.acm.org/doi/abs/10.1145/3577190.3614108"
+  authors: "Vijay Kumar Singh, Pragma Kar, Sandip Chakraborty, Mukulika Maity"
+  venue: "16th International Conference on COMmunication Systems and NETworkS (COMSNETS) 2024"
+  type: "workshop"
+  
+- year: 2023
+  title: "NATIVE: Network Aggregation-based Tiled Live Video Streaming"
+  link: "https://ieeexplore.ieee.org/abstract/document/10041371"
+  authors: "Keshav Gambhir, Tanmay Rajore, Shubham Chaudhary, Taral Jain, Avishi Gupta, Mukulika Maity, Arani Bhattachary"
+  venue: "15th International Conference on COMmunication Systems and NETworkS (COMSNETS) 2023"
+  type: "workshop"
+  
+- year: 2023
+  title: "Is There a Faulty Browser or Faulty Protocol: Performance Analysis of YouTube Video Streaming through the Lens of different Browsers"
+  link: "https://ieeexplore.ieee.org/abstract/document/10453353"
+  authors: "Sapna Chaudhary, Sandip Chakraborty, Mukulika Maity"
+  venue: "15th International Conference on COMmunication Systems and NETworkS (COMSNETS) 2023"
+  type: "workshop"
+  
+- year: 2023
+  title: "Monitoring Engagement in Online Classes Through WiFi CSI"
+  link: "https://ieeexplore.ieee.org/abstract/document/10041341"
+  authors: "Vijay Kumar Singh, Pragma Kar, Ayush Madhan Sohini, Madhav Rangaiah, Sandip Chakraborty, Mukulika Maity"
+  venue: "15th International Conference on COMmunication Systems and NETworkS (COMSNETS) 2023"
+  type: "workshop"
+  
+- year: 2022
+  title: "VISTA: Fast and Efficient Traffic Surveillance by Video Tile Sampling"
+  link: "https://d1wqtxts1xzle7.cloudfront.net/101214903/39223922-libre.pdf?1681824249=&response-content-disposition=inline%3B+filename%3DVISTA_Fast_and_Efficient_Traffic_Surveil.pdf&Expires=1762440355&Signature=BFVvL9xLU3ug~KzkTLGsTcRljr2-ulJkIw1ABuHy5vxVFbW30Eie1IIxSu5e2Luiel8avA-NGjJgESSP4HjQCmVUQh7WRalK9JO59JVaXwsmoQeADEsITnHfNUXqGoSBh5j9iFNReM~xXKCO0K4pyQ7rEhGwH89opCadhwyldMwf9lJmxxUgC7ZiH0UdRK6rC9JF~qTOyJrIDAA4j2af6bPEoOdUj6a7DvATE~7IX5cz2z2PS-7Zy6yxtWK8ZNozroX5F6UbaItlVCO4P66poYQCsNlPtvB0pgYdLjctxCH9HmbpRccoRcootstlLh2o68vorrIaV3P-iG3GYnw4gw__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA"
+  authors: "Shubham Chaudhary, Aryan Taneja, Anjali Singh, Mukulika Maity, Arani Bhattacharya"
+  venue: "LastMileS Workshop, collocated with 14th International Conference on COMmunication Systems and NETworkS 2022"
+  type: "workshop"
+  
+- year: 2022
+  title: "What Slowed Down My App: A Measurement Study of Response Times of Smartphone Apps in India"
+  link: "https://repository.iiitd.edu.in/xmlui/handle/123456789/959"
+  authors: "Abhivandan Pandey, Prince Sachdeva, Anjali, Shradha Sabhlok, Arani Bhattacharya, Mukulika Maity"
+  venue: "LastMileS Workshop, collocated with 14th International Conference on COMmunication Systems and NETworkS 2022"
+  type: "workshop"
+  
+- year: 2022
+  title: "When Is Multiple Access Beneficial? An Analysis of Multi-User Performance in IEEE 802.11ax"
+  link: "https://dl.acm.org/doi/abs/10.1145/3551660.3560920"
+  authors: "Harshal Dev, Hritik Goel, Arani Bhattacharya, Mukulika Maity"
+  venue: "14th International Conference on COMmunication Systems and NETworkS (COMSNETS) 2022"
+  type: "workshop"
+  
+- year: 2022
+  title: "Shared Backup Path Protection-Based Resource Allocation Considering Inter-Core and Inter-Mode Crosstalk for Spectrally-Spatially Elastic Optical Networks"
+  link: "https://ieeexplore.ieee.org/abstract/document/9667387"
+  authors: "Joy Halder, Mukulika Maity, Eiji Oki, Bijoy Chand Chatterjee"
+  venue: "IEEE Communications Letters (CL) 2022"
+  type: "workshop"
+  
+- year: 2019
+  title: "An Empirical Evaluation of the COTS Air Pollution Masks in a Highly Polluted Real Environment"
+  link: "https://www.researchgate.net/profile/Vinayak-Naik-4/publication/330776652_An_Empirical_Evaluation_of_the_COTS_Air_Pollution_Masks_in_a_Highly_Polluted_Real_Environment/links/5c53cb4492851c22a39f69d2/An-Empirical-Evaluation-of-the-COTS-Air-Pollution-Masks-in-a-Highly-Polluted-Real-Environment.pdf"
+  authors: "Anupama Balotra, Mukulika Maity, Vinayak Naik"
+  venue: "NetHealth Workshop, collocated with 11th International Conference on COMmunication Systems and NETworkS (COMSNETS) 2019"
+  type: "workshop"
+  
+- year: 2019
+  title: "How much can we reuse? An empirical analysis of the performance benefits achieved by spatial-reuse of IEEE 802.11ax"
+  link: "https://www.researchgate.net/profile/Avik-Dutta-3/publication/333068220_How_much_can_we_reuse_An_empirical_analysis_of_the_performance_benefits_achieved_by_spatial-reuse_of_IEEE_80211ax/links/5d7174c8a6fdcc9961b1fa4d/How-much-can-we-reuse-An-empirical-analysis-of-the-performance-benefits-achieved-by-spatial-reuse-of-IEEE-80211ax.pdf"
+  authors: "Arjun Malhotra, Mukulika Maity, Avik Dutta"
+  venue: "11th International Conference on COMmunication Systems and NETworkS (COMSNETS) 2019"
+  type: "workshop"
+  
+- year: 2018
+  title: "Elixir: Efficient Data Transfer in WiFi-based IoT nodes"
+  link: "https://dl.acm.org/doi/abs/10.1145/3241539.3267717"
+  authors: "Dheryta Jaisinghani, Gursimran Singh, Harish Fulara, Mukulika Maity, Vinayak Naik"
+  venue: "24th Annual International Conference on Mobile Computing and Networking (MobiCom) 2018"
+  type: "workshop"
+  
+- year: 2018
+  title: "Scalable Measurement of Air Pollution using COTS IoT Devices"
+  link: "https://ieeexplore.ieee.org/abstract/document/8328271"
+  authors: "Varun Jain, Mansi Goel, Mukulika Maity, Vinayak Naik, Ramachandran Ramjee"
+  venue: "Workshop on Wild and Crazy Ideas on the interplay between IoT and Big Data 2018"
+  type: "workshop"
+
+- year: 2015
+  title: "Witals: AP-centric Health Diagnosis of WiFi Network"
+  link: "https://dl.acm.org/doi/abs/10.1145/2789168.2789179"
+  authors: "Mukulika Maity, AvinashChaurasia,Rachit Srivastava, Bhaskaran Raman, Mythili Vutukuru "
+  venue: "21st Annual International Conference on Mobile Computing and Networking (MobiCom) 2015"
+  type: "workshop"
