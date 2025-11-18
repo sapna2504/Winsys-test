@@ -1,6 +1,6 @@
 name: WiNSys
-url: https://github.com/sapna2504/
-baseurl: Winsys-test
+url: https://github.com/sapna2504
+baseurl: /Winsys-test/
 
 exclude: [bibble, README.md, Makefile, screenshot.png]
 
