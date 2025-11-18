@@ -1,0 +1,41 @@
+---
+layout: default
+---
+
+<div class="container py-4">
+  <div class="row">
+    <div class="col-12 col-md-10 col-lg-9 mx-auto">
+      <h2 class="mb-4 text-center">Awards and Recognitions</h2>
+      <p class="text-muted text-center mb-5">
+        Honoring the achievements and contributions of WiNSys Lab members.
+      </p>
+
+      {% assign awards = site.data.awards | sort: "year" | reverse %}
+      {% if awards.size > 0 %}
+        <table class="table table-striped">
+          <tbody>
+            {% for award in awards %}
+              <tr>
+                <td class="align-top text-nowrap" style="width: 90px;">
+                  <strong>{{ award.year }}</strong>
+                </td>
+                <td>
+                  <div class="award-title fw-bold">{{ award.title }}</div>
+                  {% if award.recipients %}
+                    <div class="text-muted small">{{ award.recipients }}</div>
+                  {% endif %}
+                  {% if award.description %}
+                    <div class="award-desc mt-1">{{ award.description }}</div>
+                  {% endif %}
+                </td>
+              </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      {% else %}
+        <p class="text-muted small">No awards listed yet.</p>
+      {% endif %}
+    </div>
+  </div>
+</div>
+

@@ -1,0 +1,51 @@
+---
+layout: default
+---
+
+<div class="container py-4">
+  <div class="row">
+    <div class="col-12 col-md-10 col-lg-9 mx-auto">
+
+      <h2 class="mb-4">Publications</h2>
+
+      {% assign pubs = site.data.publications | sort: "year" | reverse %}
+
+      {% assign categories = "journal,conference,workshop" | split: "," %}
+      {% assign cat_titles = "Journal,Conference,Workshop/Poster/Demo/Short Papers" | split: "," %}
+
+      {% for cat in categories %}
+        {% assign cat_index = forloop.index0 %}
+        {% assign cat_title = cat_titles[cat_index] %}
+        {% assign filtered = pubs | where: "type", cat %}
+        {% if filtered and filtered.size > 0 %}
+          <h3 class="mt-4 mb-3 border-bottom pb-1">{{ cat_title }}</h3>
+          <table class="table mb-4">
+            <tbody>
+              {% for pub in filtered %}
+                <tr>
+                  <td class="align-top text-nowrap" style="width: 90px;">
+                    <span class="date">
+                      <big><strong>{{ pub.year }}</strong></big><br />
+                      {{ pub.month }}
+                    </span>
+                  </td>
+                  <td class="publication">
+                    <span class="pubtitle">
+                      <!-- ✅ Removed image, kept only title link -->
+                      <a href="{{ pub.link }}" target="_blank" rel="noopener">{{ pub.title }}</a>.
+                    </span><br />
+                    {% assign highlighted_authors = pub.authors | replace: 'Mukulika Maity', '<strong>Mukulika Maity</strong>' %}
+                    <span class="authors">{{ highlighted_authors | strip_newlines }}</span><br />
+                    <span class="venue">{{ pub.venue }}</span>.
+                  </td>
+                </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        {% endif %}
+      {% endfor %}
+
+    </div>
+  </div>
+</div>
+

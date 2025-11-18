@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+<div class="container py-4">
+  <div class="row">
+    <div class="col-12 col-md-10 col-lg-9 mx-auto">
+      <h2 class="mb-4">Talks</h2>
+
+      {% assign all_talks = site.data.talks %}
+      {% for group in all_talks %}
+        <div class="talk-category mb-4">
+	  <h3 class="category-title">{{ group.category }}</h3>
+	</div>
+
+        <ul class="list-unstyled">
+          {% for talk in group.items %}
+            <li class="mb-3">
+              <strong>{{ talk.title }}</strong><br />
+              Presented by <em>{{ talk.presenter }}</em><br />
+              {% for venue in talk.venues %}
+                at {{ venue.name }}{% if venue.link %} (<a href="{{ venue.link }}" target="_blank" rel="noopener">video</a>){% endif %}
+                on {{ venue.date }}{% unless forloop.last %}; {% endunless %}
+              {% endfor %}
+              {% if talk.notes %}
+                <br /><span class="text-muted small">{{ talk.notes }}</span>
+              {% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+

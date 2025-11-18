@@ -1,0 +1,43 @@
+---
+layout: default
+title: "People"
+notitle: true
+picture-role-groups:
+- { roles: [faculty, phd, alum], width: 10 }
+
+---
+<div class="container py-4">
+  <!-- header removed — layout will not print title because notitle: true -->
+  <section class="people row justify-content-between">
+    {% for role-group in page.picture-role-groups %}
+      <div class="col-md-{{ role-group.width }}">
+        {% for role in role-group.roles %}
+          {% include role-people.html role=role image=true %}
+        {% endfor %}
+      </div>
+    {% endfor %}
+  </section>
+
+  <section class="people row justify-content-between mt-4">
+    {% for role-group in page.no-picture-role-groups %}
+      <div class="col-md-{{ role-group.width }}">
+        {% for role in role-group.roles %}
+          {% include role-people.html role=role image=false %}
+        {% endfor %}
+      </div>
+    {% endfor %}
+  </section>
+</div>
+
+<style>
+  .role-title {
+  font-size: 1.35rem;    /* increase size */
+  font-weight: 700;      /* bold */
+  color: #222;           /* darker for contrast */
+  border-bottom: 2px solid #ccc; /* optional underline for separation */
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.4rem;
+  text-transform: none;  /* keeps capitalization as defined in _config.yml */
+}
+</style>
+
